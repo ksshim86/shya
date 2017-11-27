@@ -17,4 +17,7 @@ public interface UserRepository extends JpaRepository<User, String> {
     */
     @Query( "select id, name, password from User where name = :name" )
     List<User> findUsersForName( @Param( "name" ) String name );
+
+    // from User where name like %:name%
+    List<User> findByNameContaining( String name );
 }
