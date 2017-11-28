@@ -11,11 +11,11 @@ public class User {
 	private String password;
 	
 	public User() {
-		super();
+		// super();
 	}
 
 	public User(String id, String name, String password) {
-		super();
+		// super();
 		this.id = id;
 		this.name = name;
 		this.password = password;
