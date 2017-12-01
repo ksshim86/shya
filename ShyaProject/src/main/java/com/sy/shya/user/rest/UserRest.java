@@ -40,7 +40,7 @@ public class UserRest {
 
 	@PostMapping
 	public ResponseEntity<Void> createUser( @RequestBody User user ) {
-		userService.createUser( user);
+		userService.createUser( user );
 		return new ResponseEntity<>( HttpStatus.OK );
 	}
 }
