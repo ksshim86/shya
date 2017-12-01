@@ -1,2 +1,2 @@
 # shya
-ksshim and yangji
+Spring boot + JPA + Rest API + Angular
